@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>KRX Client Crack — Ultimate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="KRX Client Crack — тренировочный клиент для Teeworlds. Тариф Ultimate бесплатно навсегда."
+  />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    :root {
+      --bg-gradient: radial-gradient(circle at 0% 0%, #3b82f6 0, transparent 50%),
+        radial-gradient(circle at 100% 0%, #ec4899 0, transparent 50%),
+        radial-gradient(circle at 0% 100%, #22c55e 0, transparent 55%),
+        linear-gradient(135deg, #020617, #020617);
+      --glass-bg: rgba(15, 23, 42, 0.8);
+      --glass-border: rgba(148, 163, 184, 0.5);
+      --accent: #38bdf8;
+      --accent-soft: rgba(56, 189, 248, 0.16);
+      --accent-strong: #0ea5e9;
+      --danger: #f97373;
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+      --shadow-soft: 0 18px 60px rgba(15, 23, 42, 0.85);
+      --radius-xl: 22px;
+      --radius-2xl: 28px;
+      --radius-pill: 999px;
+      --blur-strong: blur(24px);
+      --nav-height: 72px;
+      --glow-text: 0 0 12px rgba(56, 189, 248, 0.9),
+        0 0 32px rgba(56, 189, 248, 0.4);
+    }
+
+    body[data-theme="gray"] {
+      --bg-gradient: linear-gradient(135deg, #111827, #020617);
+      --accent: #9ca3af;
+      --accent-strong: #e5e7eb;
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+    }
+    body[data-theme="transparent"] {
+      --bg-gradient: radial-gradient(circle at 0 0, rgba(148, 163, 184, 0.4), transparent 55%),
+        linear-gradient(135deg, #020617, #020617);
+      --glass-bg: rgba(15, 23, 42, 0.5);
+      --accent: #38bdf8;
+      --accent-strong: #0ea5e9;
+    }
+    body[data-theme="purple"] {
+      --bg-gradient: radial-gradient(circle at 0 0, #6366f1, transparent 55%),
+        radial-gradient(circle at 100% 100%, #a855f7, transparent 55%),
+        linear-gradient(135deg, #020617, #020617);
+      --accent: #a855f7;
+      --accent-strong: #d946ef;
+    }
+    body[data-theme="black-red"] {
+      --bg-gradient: radial-gradient(circle at 0 0, #ef4444, transparent 55%),
+        linear-gradient(145deg, #020617, #000000);
+      --accent: #f97373;
+      --accent-strong: #ef4444;
+    }
+    body[data-theme="yellow-blue"] {
+      --bg-gradient: radial-gradient(circle at 0 0, #facc15, transparent 55%),
+        radial-gradient(circle at 100% 100%, #0ea5e9, transparent 55%),
+        linear-gradient(135deg, #020617, #020617);
+      --accent: #facc15;
+      --accent-strong: #0ea5e9;
+    }
+    body[data-theme="night"] {
+      --bg-gradient: radial-gradient(circle at 0 0, #0ea5e9, transparent 50%),
+        radial-gradient(circle at 100% 100%, #22c55e, transparent 55%),
+        linear-gradient(135deg, #020617, #020617);
+      --accent: #38bdf8;
+      --accent-strong: #22c55e;
+    }
+    body[data-theme="mint"] {
+      --bg-gradient: radial-gradient(circle at 0 0, #5eead4, transparent 55%),
+        linear-gradient(135deg, #022c22, #020617);
+      --accent: #5eead4;
+      --accent-strong: #2dd4bf;
+    }
+    body[data-theme="green-white"] {
+      --bg-gradient: radial-gradient(circle at 0 0, #22c55e, transparent 55%),
+        linear-gradient(135deg, #ecfdf5, #020617);
+      --accent: #22c55e;
+      --accent-strong: #16a34a;
+      --text-main: #e5fbe9;
+      --text-muted: #bbf7d0;
+    }
+    body[data-theme="sunset"] {
+      --bg-gradient: radial-gradient(circle at 0 0, #f97316, transparent 55%),
+        radial-gradient(circle at 100% 100%, #ec4899, transparent 55%),
+        linear-gradient(135deg, #020617, #020617);
+      --accent: #fb923c;
+      --accent-strong: #f97316;
+    }
+    body[data-theme="ice"] {
+      --bg-gradient: radial-gradient(circle at 0 0, #e0f2fe, transparent 55%),
+        linear-gradient(135deg, #0f172a, #020617);
+      --accent: #38bdf8;
+      --accent-strong: #e0f2fe;
+    }
+
+    * { box-sizing:border-box; }
+    html,body {
+      margin:0;padding:0;
+      font-family:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background:#020617;color:var(--text-main);
+      scroll-behavior:smooth;
+    }
+    body {
+      min-height:100vh;
+      background-image:var(--bg-gradient);
+      background-attachment:fixed;
+      background-size:cover;
+      position:relative;
+      overflow-x:hidden;
+    }
+
+    .bg-orb {
+      position:fixed;border-radius:999px;filter:blur(24px);opacity:.28;z-index:-2;
+      pointer-events:none;mix-blend-mode:screen;
+    }
+    .bg-orb.orb-1 {width:420px;height:420px;background:#38bdf8;top:-80px;left:-60px;}
+    .bg-orb.orb-2 {width:380px;height:380px;background:#ec4899;top:0;right:-100px;}
+    .bg-orb.orb-3 {width:380px;height:380px;background:#22c55e;bottom:-120px;right:8%;}
+
+    .intro-overlay {
+      position:fixed;inset:0;background:#000;display:flex;align-items:center;justify-content:center;
+      z-index:9999;animation:introFade 2.4s ease forwards;
+    }
+    .intro-title {font-size:36px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#fff;}
+    @keyframes introFade {0%{opacity:0;}15%{opacity:1;}70%{opacity:1;}100%{opacity:0;}}
+    .intro-hidden {display:none!important;}
+
+    .reveal-on-scroll {opacity:0;transform:translateY(18px);transition:opacity .7s ease-out,transform .7s ease-out;}
+    .reveal-on-scroll.is-visible {opacity:1;transform:translateY(0);}
+
+    .page-shell {max-width:1120px;margin:0 auto;padding:20px 16px 80px;position:relative;z-index:1;}
+    header {position:sticky;top:0;z-index:20;backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);}
+    .nav {
+      display:flex;align-items:center;justify-content:space-between;height:72px;
+      padding:10px 18px;border-radius:999px;margin-bottom:18px;
+      background:linear-gradient(120deg,rgba(15,23,42,.96),rgba(15,23,42,.86));
+      border:1px solid rgba(148,163,184,.35);box-shadow:0 14px 34px rgba(15,23,42,.8);
+    }
+    .nav-left {display:flex;align-items:center;gap:10px;}
+    .nav-logo-link {text-decoration:none;color:inherit;display:flex;align-items:center;gap:10px;}
+    .logo-badge {
+      width:38px;height:38px;border-radius:16px;
+      background:radial-gradient(circle at 20% 0%,#e5e7eb,#0f172a);
+      position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;
+      box-shadow:0 0 22px rgba(248,250,252,.7);
+    }
+    .logo-badge::before {
+      content:"";position:absolute;inset:1px;border-radius:inherit;
+      background:radial-gradient(circle at 0 0,#38bdf8,transparent 55%);opacity:.22;
+    }
+    .logo-letter {font-weight:800;letter-spacing:.06em;font-size:14px;z-index:1;color:#f9fafb;}
+    .nav-title {display:flex;flex-direction:column;gap:2px;}
+    .nav-title-main {font-size:16px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#e5e7eb;text-shadow:var(--glow-text);}
+    .nav-title-sub {font-size:11px;color:var(--text-muted);}
+    .nav-links {display:flex;align-items:center;gap:18px;font-size:13px;color:var(--text-muted);}
+    .nav-links a {color:inherit;text-decoration:none;padding:4px 0;}
+    .nav-cta {display:flex;align-items:center;gap:10px;}
+    .pill {padding:6px 12px;border-radius:999px;font-size:11px;text-transform:uppercase;letter-spacing:.1em;
+      border:1px solid rgba(148,163,184,.7);color:var(--text-muted);background:rgba(15,23,42,.9);
+      box-shadow:0 0 18px rgba(15,23,42,.9);}
+
+    .btn {appearance:none;border:none;border-radius:999px;font-size:13px;padding:9px 18px;
+      display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;
+      font-weight:500;transition:transform .25s ease,box-shadow .25s ease,background .2s ease;
+      text-decoration:none;white-space:nowrap;}
+    .btn-primary {background:radial-gradient(circle at 0 0,var(--accent),var(--accent-strong));color:#0b1220;
+      box-shadow:0 0 18px rgba(56,189,248,.9);}
+    .btn-soft {background:rgba(15,23,42,.9);color:var(--text-main);border:1px solid rgba(148,163,184,.7);}
+    .btn-icon {font-size:14px;}
+
+    .hero {margin-top:12px;}
+    .hero-left {padding:32px 28px 30px;border-radius:28px;
+      background:linear-gradient(135deg,rgba(15,23,42,.95),rgba(15,23,42,.98));
+      border:1px solid rgba(148,163,184,.45);box-shadow:var(--shadow-soft);position:relative;overflow:hidden;}
+    .hero-inner {position:relative;z-index:1;}
+    .hero-kicker {display:inline-flex;align-items:center;gap:10px;padding:4px 9px;border-radius:999px;
+      background:rgba(15,23,42,.9);border:1px solid rgba(56,189,248,.5);color:var(--accent);
+      font-size:11px;text-transform:uppercase;letter-spacing:.14em;margin-bottom:14px;}
+    .hero-title {font-size:clamp(32px,4vw,40px);line-height:1.05;font-weight:800;margin:0 0 10px;
+      letter-spacing:-.03em;color:#f9fafb;text-shadow:var(--glow-text);}
+    .hero-subtitle {margin:0 0 18px;font-size:14px;color:var(--text-muted);max-width:36rem;}
+    .hero-meta {display:flex;flex-wrap:wrap;gap:10px 16px;margin-bottom:18px;font-size:11px;color:var(--text-muted);}
+    .hero-actions {display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px;}
+    .hero-note {font-size:11px;color:var(--text-muted);}
+
+    section {margin-top:32px;}
+    section h2 {font-size:20px;margin:0 0 8px;text-shadow:var(--glow-text);}
+    section p.section-sub {margin:0 0 20px;font-size:13px;color:var(--text-muted);max-width:34rem;}
+
+    .features-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;}
+    .feature-card {padding:16px 14px 14px;border-radius:18px;background:rgba(15,23,42,.9);
+      border:1px solid rgba(148,163,184,.4);box-shadow:0 12px 32px rgba(15,23,42,.8);}
+
+    .media-grid {display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:18px;}
+    .video-frame {border-radius:20px;overflow:hidden;border:1px solid rgba(148,163,184,.5);
+      box-shadow:0 16px 40px rgba(15,23,42,.9);aspect-ratio:16/9;background:#020617;}
+    .screens-grid {margin-top:14px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;}
+    .screen-card {position:relative;border-radius:12px;overflow:hidden;border:1px solid rgba(148,163,184,.45);
+      box-shadow:0 10px 26px rgba(15,23,42,.9);cursor:pointer;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;}
+    .screen-card img {width:100%;display:block;}
+    .screen-card:hover {transform:translateY(-3px) scale(1.01);box-shadow:0 16px 34px rgba(15,23,42,1);border-color:rgba(148,163,184,.8);}
+    .media-side-card {padding:16px 14px;border-radius:20px;border:1px solid rgba(148,163,184,.45);
+      background:rgba(15,23,42,.92);box-shadow:0 16px 36px rgba(15,23,42,.9);font-size:12px;color:var(--text-muted);}
+
+    .pricing-wrapper {display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:20px;}
+    .pricing-copy {padding:18px 18px 16px;border-radius:20px;border:1px solid rgba(148,163,184,.4);
+      background:rgba(15,23,42,.9);font-size:13px;color:var(--text-muted);}
+    .authors-grid {display:flex;flex-wrap:wrap;gap:16px;margin-top:8px;}
+    .author-card {display:flex;flex-direction:column;align-items:center;gap:8px;padding:10px 12px;border-radius:18px;
+      background:rgba(15,23,42,.95);border:1px solid rgba(148,163,184,.5);box-shadow:0 12px 28px rgba(15,23,42,.9);
+      min-width:140px;transition:transform .25s ease,box-shadow .25s ease;}
+    .author-avatar {width:72px;height:72px;border-radius:999px;overflow:hidden;box-shadow:0 0 18px rgba(56,189,248,.9);
+      background:transparent;transition:transform .25s ease,box-shadow .25s ease;}
+    .author-avatar img {width:100%;height:100%;display:block;}
+    .author-card:hover .author-avatar {transform:scale(1.08) translateY(-2px);box-shadow:0 0 26px rgba(56,189,248,1);}
+    .author-card:hover {transform:translateY(-3px);box-shadow:0 16px 34px rgba(15,23,42,1);}
+    .author-name {font-size:13px;font-weight:600;}
+    .author-tag {font-size:11px;color:var(--text-muted);}
+
+    .pricing-card {border-radius:22px;padding:20px 18px 18px;
+      background:radial-gradient(circle at 0 0,rgba(56,189,248,.28),transparent 55%),
+      radial-gradient(circle at 100% 100%,rgba(248,250,252,.16),transparent 55%),
+      rgba(15,23,42,.98);border:1px solid rgba(56,189,248,.7);box-shadow:0 0 40px rgba(56,189,248,.95);}
+    .pricing-feature-list {list-style:none;padding:0;margin:0 0 14px;font-size:12px;}
+    .pricing-feature-check {width:14px;height:14px;border-radius:999px;border:1px solid rgba(22,163,74,.9);
+      display:flex;align-items:center;justify-content:center;font-size:10px;color:#bbf7d0;flex-shrink:0;}
+
+    #settings .settings-grid {display:grid;gap:16px;}
+    .theme-buttons {display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;}
+    .theme-btn {padding:6px 12px;border-radius:999px;border:1px solid rgba(148,163,184,.7);
+      background:rgba(15,23,42,.96);font-size:11px;cursor:pointer;color:var(--text-main);}
+    .theme-btn.is-active {background:radial-gradient(circle at 0 0,var(--accent),var(--accent-strong));
+      color:#020617;box-shadow:0 0 18px rgba(56,189,248,.9);}
+
+    .faq-list {display:flex;flex-direction:column;gap:8px;}
+    details.faq-item {padding:10px 12px;border-radius:14px;background:rgba(15,23,42,.9);
+      border:1px solid rgba(148,163,184,.4);font-size:12px;}
+    details.faq-item summary {cursor:pointer;}
+
+    footer {margin-top:40px;padding-top:16px;font-size:11px;color:var(--text-muted);
+      border-top:1px solid rgba(31,41,55,.9);display:flex;flex-wrap:wrap;gap:10px;
+      align-items:center;justify-content:space-between;}
+
+    .back-to-top {position:fixed;right:18px;bottom:18px;width:42px;height:42px;border-radius:999px;border:none;
+      display:flex;align-items:center;justify-content:center;cursor:pointer;
+      background:radial-gradient(circle at 0 0,var(--accent),var(--accent-strong));
+      color:#020617;box-shadow:0 0 20px rgba(56,189,248,.9);opacity:0;pointer-events:none;
+      transition:opacity .2s ease,transform .2s ease;z-index:30;}
+    .back-to-top.visible {opacity:1;pointer-events:auto;}
+    .back-to-top:hover {transform:translateY(-2px) scale(1.03);}
+
+    /* Support modal */
+    .support-overlay {
+      position:fixed;inset:0;z-index:40;
+      display:none;align-items:center;justify-content:center;
+      background:rgba(15,23,42,0.7);
+      backdrop-filter:blur(20px);
+      -webkit-backdrop-filter:blur(20px);
+    }
+    .support-overlay.open {display:flex;}
+    .support-window {
+      width:100%;max-width:520px;max-height:80vh;
+      background:var(--glass-bg);
+      border-radius:24px;
+      border:1px solid var(--glass-border);
+      box-shadow:0 20px 60px rgba(15,23,42,0.95);
+      display:flex;flex-direction:column;
+      overflow:hidden;
+    }
+    .support-header {
+      padding:12px 16px;
+      border-bottom:1px solid rgba(31,41,55,0.9);
+      display:flex;align-items:center;justify-content:space-between;
+      gap:10px;
+    }
+    .support-title-block {display:flex;flex-direction:column;}
+    .support-title {font-size:14px;font-weight:600;}
+    .support-sub {font-size:11px;color:var(--text-muted);}
+    .support-userid {font-size:11px;color:var(--text-muted);}
+    .support-close {
+      border:none;background:transparent;color:var(--text-muted);
+      cursor:pointer;font-size:18px;line-height:1;
+    }
+    .support-body {
+      padding:12px 16px;
+      display:flex;flex-direction:column;
+      gap:8px;
+      flex:1;
+    }
+    .support-messages {
+      flex:1;
+      min-height:120px;
+      max-height:260px;
+      padding:8px 6px;
+      border-radius:16px;
+      background:rgba(15,23,42,0.9);
+      border:1px solid rgba(55,65,81,0.9);
+      overflow-y:auto;
+      font-size:12px;
+    }
+    .support-msg {
+      margin-bottom:6px;
+      display:flex;
+      justify-content:flex-end;
+    }
+    .support-msg-bubble {
+      max-width:80%;
+      padding:6px 10px;
+      border-radius:16px 16px 2px 16px;
+      background:rgba(56,189,248,0.15);
+      border:1px solid rgba(56,189,248,0.6);
+      font-size:12px;
+    }
+    .support-input-row {
+      margin-top:8px;
+      display:flex;
+      gap:8px;
+      align-items:flex-end;
+    }
+    .support-textarea {
+      flex:1;
+      resize:vertical;
+      min-height:56px;
+      max-height:140px;
+      border-radius:14px;
+      border:1px solid rgba(55,65,81,0.9);
+      background:rgba(15,23,42,0.95);
+      color:var(--text-main);
+      padding:8px 10px;
+      font-family:inherit;
+      font-size:12px;
+    }
+    .support-send-btn {
+      padding:9px 14px;
+      border-radius:999px;
+      border:none;
+      font-size:12px;
+      cursor:pointer;
+      background:radial-gradient(circle at 0 0,var(--accent),var(--accent-strong));
+      color:#020617;
+      box-shadow:0 0 16px rgba(56,189,248,0.9);
+      display:flex;
+      align-items:center;
+      gap:6px;
+      white-space:nowrap;
+    }
+    .support-status {
+      margin-top:4px;
+      font-size:11px;
+      color:var(--text-muted);
+      min-height:14px;
+    }
+  
+
+/* === Ultimate Download Notes modal (theme-adaptive) === */
+.dl-overlay{
+  position:fixed; inset:0; z-index:80;
+  display:none; align-items:center; justify-content:center;
+  padding:18px;
+  background:rgba(2,6,23,.68);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+.dl-overlay.open{ display:flex; }
+.dl-card{
+  width:min(680px, 100%);
+  border-radius: 26px;
+  border:1px solid var(--glass-border, rgba(148,163,184,.22));
+  background: var(--glass-bg, rgba(17,25,40,.72));
+  box-shadow: 0 28px 90px rgba(0,0,0,.55);
+  overflow:hidden;
+  transform: translateY(10px) scale(.985);
+  opacity: 0;
+  animation: dlIn .22s ease forwards;
+}
+@keyframes dlIn{ to { transform: translateY(0) scale(1); opacity: 1; } }
+
+.dl-body{
+  padding: 26px 26px 22px;
+  text-align:center;
+}
+
+.dl-icon{
+  width:92px; height:92px;
+  margin: 2px auto 18px;
+  border-radius: 999px;
+  display:grid; place-items:center;
+  background: radial-gradient(circle at 30% 30%, rgba(56,189,248,.22), rgba(56,189,248,.04) 60%, transparent 70%);
+  border: 4px solid color-mix(in srgb, var(--accent-strong, #38bdf8) 72%, white 0%);
+  box-shadow: 0 0 34px rgba(56,189,248,.22);
+}
+/* fallback for browsers without color-mix */
+@supports not (color-mix(in srgb, red 50%, white)) {
+  .dl-icon { border-color: rgba(56,189,248,.9); }
+}
+.dl-icon span{
+  font-size: 46px;
+  font-weight: 800;
+  color: var(--accent-strong, #38bdf8);
+  text-shadow: 0 0 18px rgba(56,189,248,.35);
+}
+
+.dl-title{
+  font-size: clamp(22px, 3.2vw, 34px);
+  line-height: 1.1;
+  margin: 0 0 14px;
+  color: var(--text-main, rgba(255,255,255,.96));
+  letter-spacing: -0.02em;
+}
+
+.dl-text{
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-muted, rgba(255,255,255,.78));
+}
+.dl-text strong{
+  color: var(--text-main, rgba(255,255,255,.96));
+  font-weight: 800;
+}
+
+.dl-text + .dl-text{ margin-top: 16px; }
+
+.dl-footer{
+  padding: 18px 22px 22px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.dl-btn{
+  display:inline-flex;
+  align-items:center; justify-content:center;
+  gap:10px;
+  border-radius: 14px;
+  padding: 12px 18px;
+  font-weight: 700;
+  border: 1px solid rgba(148,163,184,.22);
+  cursor:pointer;
+  transition: transform .16s ease, box-shadow .16s ease, filter .16s ease, background .16s ease;
+  user-select:none;
+}
+.dl-btn:active{ transform: translateY(1px) scale(.99); }
+
+.dl-btn-primary{
+  color: rgba(255,255,255,.96);
+  background: linear-gradient(90deg, rgba(124,58,237,.95), rgba(56,189,248,.95));
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+.dl-btn-primary:hover{
+  filter: saturate(1.08);
+  box-shadow: 0 0 34px rgba(56,189,248,.25), 0 0 34px rgba(124,58,237,.18);
+  transform: translateY(-1px);
+}
+
+.dl-btn-ghost{
+  color: var(--text-main, rgba(255,255,255,.92));
+  background: rgba(148,163,184,.14);
+}
+.dl-btn-ghost:hover{
+  background: rgba(148,163,184,.20);
+  transform: translateY(-1px);
+}
+
+.dl-close{
+  position:absolute;
+  top: 14px; right: 14px;
+  width: 40px; height: 40px;
+  border-radius: 999px;
+  border: 1px solid rgba(148,163,184,.25);
+  background: rgba(15,23,42,.35);
+  color: var(--text-main, rgba(255,255,255,.85));
+  cursor:pointer;
+  transition: transform .16s ease, box-shadow .16s ease;
+  display:grid; place-items:center;
+}
+.dl-close:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 18px rgba(56,189,248,.18);
+}
+
+@media (max-width: 480px){
+  .dl-body{ padding: 22px 18px 18px; }
+  .dl-footer{ padding: 16px 16px 18px; }
+  .dl-btn{ width: 100%; }
+}
+
+</style>
+</head>
+<body data-theme="night">
+  <div class="intro-overlay" id="intro">
+    <div class="intro-title">KRX CLIENT CRACK</div>
+  </div>
+
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <div class="page-shell">
+    <header id="top" class="reveal-on-scroll is-visible">
+      <nav class="nav">
+        <a href="#top" class="nav-logo-link">
+          <div class="nav-left">
+            <div class="logo-badge">
+              <span class="logo-letter">KRX</span>
+            </div>
+            <div class="nav-title">
+              <span class="nav-title-main">KRX Client Crack</span>
+              <span class="nav-title-sub">Training &amp; Analytics for Teeworlds</span>
+            </div>
+          </div>
+        </a>
+        <div class="nav-links">
+          <a href="#features">Функции</a>
+          <a href="#media">Трейлер</a>
+          <a href="#pricing">Тариф</a>
+          <a href="#settings">Настройки</a>
+          <a href="#faq">FAQ</a>
+          <a href="#" data-open-support>Поддержка</a>
+        </div>
+        <div class="nav-cta">
+          <span class="pill">Ultimate · Бесплатно</span>
+          <a href="#pricing" class="btn btn-primary">
+            <span class="btn-icon">⬇</span>
+            Скачать клиент
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal-on-scroll" aria-label="KRX Client Crack">
+        <div class="hero-left">
+          <div class="hero-inner">
+            <div class="hero-kicker">
+              <span>Ultimate · Бесплатный тренировочный клиент</span>
+            </div>
+            <h1 class="hero-title">
+              Твой aim-центр и аналитика для Teeworlds в одном клиенте.
+            </h1>
+            <p class="hero-subtitle">
+              KRX Client Crack помогает разогреть aim, отработать сложные маршруты и
+              проанализировать свои ошибки, чтобы каждый заход на сервер был
+              увереннее прошлого.
+            </p>
+
+            <div class="hero-meta">
+              <span>⚙ Версия 1.36.1 · 64-bit</span>
+              <span>🧠 Фокус на тренировке навыков</span>
+              <span>🛡 Без нечестных преимуществ</span>
+            </div>
+
+            <div class="hero-actions" id="download">
+              <a href="#pricing" class="btn btn-primary">
+                <span class="btn-icon">⬇</span>
+                Скачать клиент
+              </a>
+              <a href="#media" class="btn btn-soft">
+                <span class="btn-icon">▶</span>
+                Смотреть трейлер
+              </a>
+            </div>
+
+            <p class="hero-note">
+              <strong>Ultimate — бесплатно навсегда.</strong> Все тренировочные модули и обновления без подписки.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="reveal-on-scroll">
+        <h2>Модули, которые прокачивают скилл</h2>
+        <p class="section-sub">
+          Ultimate объединяет тренировочные режимы: от aim и движения до памяти карты и анализа своих демо.
+        </p>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <h3 class="feature-title">Targeting Analyzer</h3>
+            <p class="feature-desc">
+              Отслеживай каждый выстрел, строй тепловые карты попаданий и
+              следи, как уходит дрожь в прицеливании.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3 class="feature-title">Replay &amp; Review</h3>
+            <p class="feature-desc">
+              Записывай тренировку и разбирай её по кадрам: где замедлился,
+              где ошибся с таймингом, где дал лишнее движение.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3 class="feature-title">Movement Visualizer</h3>
+            <p class="feature-desc">
+              Анализ привычных маршрутов, повторяемых паттернов и лишних
+              движений. Делай перемещение сложным для чтения.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="media" class="reveal-on-scroll">
+        <h2>Посмотри KRX Client Crack в действии</h2>
+        <p class="section-sub">Трейлер + скриншоты интерфейса клиента.</p>
+
+        <div class="media-grid">
+          <div>
+            <div class="video-frame">
+              <iframe
+                src="https://www.youtube.com/embed/knZ98YJSMgA"
+                title="KRX Client Crack Trailer"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                style="width:100%;height:100%;border:0;"
+              ></iframe>
+            </div>
+            <div class="screens-grid">
+              <div class="screen-card"><img src="screenshots/screen_1.png" alt="KRX Client UI 1" /></div>
+              <div class="screen-card"><img src="screenshots/screen_2.png" alt="KRX Client UI 2" /></div>
+              <div class="screen-card"><img src="screenshots/screen_3.png" alt="KRX Client UI 3" /></div>
+              <div class="screen-card"><img src="screenshots/screen_4.png" alt="KRX Client UI 4" /></div>
+              <div class="screen-card"><img src="screenshots/screen_5.png" alt="KRX Client UI 5" /></div>
+              <div class="screen-card"><img src="screenshots/screen_6.png" alt="KRX Client UI 6" /></div>
+            </div>
+          </div>
+          <div class="media-side-card">
+            <h3>О чём трейлер</h3>
+            <p>
+              Видео показывает, как выглядит интерфейс KRX Client Crack вживую:
+              переключение вкладок, настройка aimbot, визуальные эффекты, тролль-функции
+              и TAS-инструменты. Всё снято прямо из клиента.
+            </p>
+            <p>
+              На скриншотах — реальные окна конфигов: хоткеи, TAS-панель, визуальные
+              настройки, кастомные цвета и панели Aimbot / Avoid / Ghost / Fake Aim.
+            </p>
+            <p>
+              Идея трейлера — показать, что клиент удобен как тренажёр и песочница
+              для экспериментов, а не только как набор опций.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="reveal-on-scroll">
+        <h2>Один тариф. Ultimate. Бесплатно.</h2>
+        <p class="section-sub">
+          Всё, что нужно для серьёзной тренировки — доступно в одном плане, навсегда.
+        </p>
+
+        <div class="pricing-wrapper">
+          <div class="pricing-copy">
+            <h3>Авторы</h3>
+            <div class="authors-grid">
+              <div class="author-card">
+                <div class="author-avatar">
+                  <img src="avatars/author_gavril.png" alt="Автор †im Gavril†" />
+                </div>
+                <div class="author-name">name †im Gavril†</div>
+                <div class="author-tag">Дизайн / идеи</div>
+              </div>
+              <div class="author-card">
+                <div class="author-avatar">
+                  <img src="avatars/author_neactiven.png" alt="Автор neactiven" />
+                </div>
+                <div class="author-name">name neactiven</div>
+                <div class="author-tag">Разработка / поддержка</div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="pricing-card" aria-label="Ultimate тариф">
+            <h3 style="margin-top:0;">Ultimate</h3>
+            <p>Полный набор тренировочных модулей KRX Client Crack без оплаты.</p>
+            <ul class="pricing-feature-list">
+              <li><span class="pricing-feature-check">✓</span><span>Все тренировочные режимы.</span></li>
+              <li><span class="pricing-feature-check">✓</span><span>Запись и разбор сессий.</span></li>
+              <li><span class="pricing-feature-check">✓</span><span>Обновления бесплатно.</span></li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1sSlAEhI6fciP6gfcxz4cjoIhqNPTTt4G/view" class="btn btn-primary js-download-ultimate">
+              <span class="btn-icon">⬇</span>
+              Скачать Ultimate бесплатно
+            </a>
+          </aside>
+        </div>
+      </section>
+
+      <section id="settings" class="reveal-on-scroll">
+        <h2>Настройки</h2>
+        <p class="section-sub">Выбери тему оформления KRX Client Crack.</p>
+        <div class="settings-grid">
+          <div>
+            <h3 style="font-size:14px;margin:0 0 6px;">Темы интерфейса</h3>
+            <div class="theme-buttons" id="themeButtons">
+              <button class="theme-btn" data-theme="gray">Серая</button>
+              <button class="theme-btn" data-theme="transparent">Прозрачная</button>
+              <button class="theme-btn" data-theme="purple">Фиолетовая</button>
+              <button class="theme-btn" data-theme="black-red">Чёрно-красная</button>
+              <button class="theme-btn" data-theme="yellow-blue">Жёлто-синяя</button>
+              <button class="theme-btn is-active" data-theme="night">Ночная</button>
+              <button class="theme-btn" data-theme="mint">Мятная</button>
+              <button class="theme-btn" data-theme="green-white">Зелёно-белая</button>
+              <button class="theme-btn" data-theme="sunset">Сансет</button>
+              <button class="theme-btn" data-theme="ice">Лёд</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="reveal-on-scroll">
+        <h2>Частые вопросы</h2>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>KRX Client Crack даёт преимущество в онлайне?</summary>
+            <div class="faq-answer">
+              Да, клиент задуман как отдельный тренировочный инструмент: режимы,
+              сценарии и аналитика запускаются в контролируемой среде. Игрок сам
+              несёт ответственность за соблюдение правил серверов и игр, в которых
+              он участвует, данный софт задуман как троллинг с друзьями.
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Ultimate действительно бесплатен?</summary>
+            <div class="faq-answer">
+              Да. Ultimate не требует подписки и разовых платежей.
+              Все основные тренировочные модули входят в него по умолчанию.
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Где получить помощь, если что-то не работает?</summary>
+            <div class="faq-answer">
+              Основной контакт — Discord: neactiven. Можно прислать логи,
+              скриншоты ошибки и описание системы, чтобы быстрее найти причину.
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Какие режимы лучше запускать для разминки?</summary>
+            <div class="faq-answer">
+              Обычно хватает 5–10 минут aim-тренажёров + несколько попыток
+              movement-сценариев. Дальше — короткий TAS-разбор своих ошибок,
+              если есть свежие реплеи.
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Можно ли использовать клиент на основных серверах?</summary>
+            <div class="faq-answer">
+              Ты сам отвечаешь за соблюдение правил серверов и проектов, где играешь.
+              Клиент задуман как отдельная тренировочная среда и троллинг с друзьями.
+            </div>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="reveal-on-scroll">
+      <span>© 2025 KRX Client Crack · неофициальный тренировочный софт. Поддержка: Discord @neactiven.</span>
+    </footer>
+  </div>
+
+  <button class="back-to-top" id="backToTop" aria-label="Наверх">↑</button>
+
+  <!-- Support modal -->
+  <div class="support-overlay" id="supportOverlay">
+    <div class="support-window">
+      <div class="support-header">
+        <div class="support-title-block">
+          <div class="support-title">Поддержка KRX</div>
+          <div class="support-sub">Напиши свой вопрос, ответ придёт через Telegram.</div>
+        </div>
+        <div class="support-userid" id="supportUserIdLabel"></div>
+        <button class="support-close" id="supportClose" aria-label="Закрыть">✕</button>
+      </div>
+      <div class="support-body">
+        <div class="support-messages" id="supportMessages"></div>
+        <div class="support-input-row">
+          <textarea id="supportInput" class="support-textarea" placeholder="Опиши проблему или вопрос..."></textarea>
+          <button class="support-send-btn" id="supportSend">
+            <span>Отправить</span>
+          </button>
+        </div>
+        <div class="support-status" id="supportStatus"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const intro = document.getElementById("intro");
+    if (intro) {
+      intro.addEventListener("animationend", () => {
+        intro.classList.add("intro-hidden");
+        window.scrollTo({top:0, behavior:"auto"});
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const body = document.body;
+      const themeButtons = document.querySelectorAll(".theme-btn");
+      themeButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const theme = btn.getAttribute("data-theme");
+          body.setAttribute("data-theme", theme);
+          themeButtons.forEach((b) => b.classList.remove("is-active"));
+          btn.classList.add("is-active");
+          window.scrollTo({top:0, behavior:"smooth"});
+        });
+      });
+    });
+
+    const revealElements = document.querySelectorAll(".reveal-on-scroll");
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {threshold:0.15});
+      revealElements.forEach((el) => observer.observe(el));
+    } else {
+      revealElements.forEach((el) => el.classList.add("is-visible"));
+    }
+
+    const backToTop = document.getElementById("backToTop");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 400) {
+        backToTop.classList.add("visible");
+      } else {
+        backToTop.classList.remove("visible");
+      }
+    });
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({top:0, behavior:"smooth"});
+    });
+
+    // Support modal logic
+    const supportOverlay = document.getElementById("supportOverlay");
+    const supportClose = document.getElementById("supportClose");
+    const supportInput = document.getElementById("supportInput");
+    const supportSend = document.getElementById("supportSend");
+    const supportMessages = document.getElementById("supportMessages");
+    const supportStatus = document.getElementById("supportStatus");
+    const supportUserIdLabel = document.getElementById("supportUserIdLabel");
+    const supportLinks = document.querySelectorAll("[data-open-support]");
+
+    let supportUserId = localStorage.getItem("krx_support_user_id");
+    if (!supportUserId) {
+      supportUserId = Date.now().toString(36) + "-" + Math.floor(Math.random() * 9999);
+      localStorage.setItem("krx_support_user_id", supportUserId);
+    }
+    if (supportUserIdLabel) {
+      supportUserIdLabel.textContent = "ID: " + supportUserId;
+    }
+
+    function openSupport() {
+      supportOverlay.classList.add("open");
+      supportInput.focus();
+    }
+    function closeSupport() {
+      supportOverlay.classList.remove("open");
+    }
+
+    supportLinks.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        openSupport();
+      });
+    });
+    supportClose.addEventListener("click", closeSupport);
+    supportOverlay.addEventListener("click", (e) => {
+      if (e.target === supportOverlay) closeSupport();
+    });
+
+    function addLocalMessage(text) {
+      const wrap = document.createElement("div");
+      wrap.className = "support-msg";
+      const bubble = document.createElement("div");
+      bubble.className = "support-msg-bubble";
+      bubble.textContent = text;
+      wrap.appendChild(bubble);
+      supportMessages.appendChild(wrap);
+      supportMessages.scrollTop = supportMessages.scrollHeight;
+    }
+
+    async function sendSupportMessage() {
+      const text = supportInput.value.trim();
+      if (!text) return;
+      addLocalMessage(text);
+      supportInput.value = "";
+      supportStatus.textContent = "Отправка сообщения...";
+
+      const payloadText =
+        "💬 Новое сообщение с сайта KRX Client Crack\n" +
+        "UserID: " + supportUserId + "\n" +
+        "Тема сайта: " + (document.body.getAttribute("data-theme") || "night") + "\n\n" +
+        text + "\n\n" +
+        "Ответ: используйте команду /userid" + supportUserId + " в этом чате.";
+
+      try {
+        const url = "https://api.telegram.org/bot8590165413:AAGwBMJsnWr1_vTshqzw6MUZGOuoW82KUYw/sendMessage";
+        const body = new URLSearchParams({
+          chat_id: "3486876691",
+          text: payloadText,
+        });
+
+        // Telegram Bot API не даёт нормальный CORS, поэтому используем no-cors.
+        await fetch(url, {
+          method: "POST",
+          mode: "no-cors",
+          headers: {"Content-Type": "application/x-www-form-urlencoded"},
+          body,
+        });
+
+        supportStatus.textContent =
+          "Сообщение отправлено в Telegram-группу (если бот и группа настроены).";
+      } catch (e) {
+        console.error(e);
+        supportStatus.textContent = "Ошибка при отправке. Проверь подключение и настройки бота.";
+      }
+    }
+
+    supportSend.addEventListener("click", sendSupportMessage);
+    supportInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) {
+        e.preventDefault();
+        sendSupportMessage();
+      }
+    });
+  </script>
+
+  <!-- Ultimate download modal -->
+  <div class="dl-overlay" id="dlOverlay" aria-hidden="true">
+    <div class="dl-card" role="dialog" aria-modal="true" aria-label="Заметки об антивирусной проверке" style="position:relative">
+      <button class="dl-close" id="dlClose" aria-label="Закрыть">✕</button>
+
+      <div class="dl-body">
+        <div class="dl-icon" aria-hidden="true"><span>Я</span></div>
+        <h2 class="dl-title">Заметки об антивирусной проверке</h2>
+
+        <p class="dl-text">
+          Наше программное обеспечение защищено обфускацией для обеспечения безопасности кода.
+          Иногда это может вызывать <strong>ложные срабатывания</strong> у антивирусов (включая Защитник Windows).
+        </p>
+
+        <p class="dl-text">
+          </strong>Файл полностью безопасен</strong>. Если вы видите предупреждение, возможно, вам нужно временно разрешить загрузку или добавить файл в </strong>список исключений</strong> в настройках антивируса.        </p>
+      </div>
+
+      <div class="dl-footer">
+        <button class="dl-btn dl-btn-primary" id="dlContinue">Продолжить</button>
+        <button class="dl-btn dl-btn-ghost" id="dlBackTop">Назад</button>
+      </div>
+    </div>
+  </div>
+
+
+<script>
+(function() {
+  const overlay = document.getElementById("dlOverlay");
+  const closeBtn = document.getElementById("dlClose");
+  const contBtn  = document.getElementById("dlContinue");
+  const backBtn  = document.getElementById("dlBackTop");
+
+  if (!overlay) return;
+
+  let pendingHref = "https://drive.google.com/file/d/1sSlAEhI6fciP6gfcxz4cjoIhqNPTTt4G/view";
+
+  function openModal(href) {
+    pendingHref = href || "https://drive.google.com/file/d/1sSlAEhI6fciP6gfcxz4cjoIhqNPTTt4G/view";
+    overlay.classList.add("open");
+    overlay.setAttribute("aria-hidden", "false");
+    document.documentElement.style.overflow = "hidden";
+  }
+  function closeModal() {
+    overlay.classList.remove("open");
+    overlay.setAttribute("aria-hidden", "true");
+    document.documentElement.style.overflow = "";
+  }
+
+  // Delegated click: any drive (Ultimate) link or explicit marker class
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest && e.target.closest("a");
+    if (!a) return;
+    const href = a.getAttribute("href") || "";
+    const txt = (a.textContent || "").toLowerCase();
+
+    const isUltimateText = txt.includes("скачать ultimate") && txt.includes("бесплатно");
+    const isDrive = href.includes("drive.google.com/file/");
+    const isMarked = a.classList && a.classList.contains("js-download-ultimate");
+
+    if (!(isMarked || (isDrive && isUltimateText) || (href === "https://drive.google.com/file/d/1sSlAEhI6fciP6gfcxz4cjoIhqNPTTt4G/view"))) return;
+
+    e.preventDefault();
+    openModal(a.href);
+  }, true);
+
+  closeBtn && closeBtn.addEventListener("click", closeModal);
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) closeModal(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeModal(); });
+
+  contBtn && contBtn.addEventListener("click", () => {
+    closeModal();
+    window.location.href = pendingHref;
+  });
+
+  backBtn && backBtn.addEventListener("click", () => {
+    closeModal();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+})();
+</script>
+
+</body>
+</html>
